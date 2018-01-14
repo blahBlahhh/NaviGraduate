@@ -37,14 +37,15 @@ public class ConsulateController extends Controller
 	{
 		nation.setItems(FXCollections.observableArrayList("America", "Canada", "Britain"));
 		nation.setTooltip(new Tooltip("Select the nation"));
+		
 		ObservableList<String> AmericanCity = FXCollections.observableArrayList(
-				"New York", "San Francisco", "Chicago", "Houston", "Los Angles"
+				"San Francisco", "Los Angles", "New York", "Houston", "Chicago"
 		);
 		ObservableList<String> CanadianCity = FXCollections.observableArrayList(
-				"Ottawa", "Toronto", "Vancouver", "Calgary", "Montreal"
+				"Toronto", "Calgary", "Montreal", "Vancouver"
 		);
 		ObservableList<String> BritishCity = FXCollections.observableArrayList(
-				"Edinburgh", "Manchester", "Belfast"
+				"Edinburgh", "Belfast", "Manchester"
 		);
 		
 		nation.getSelectionModel().selectedIndexProperty().addListener(new ChangeListener<Object>() 
