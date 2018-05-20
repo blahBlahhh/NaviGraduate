@@ -19,4 +19,7 @@ public class StageMap
 	
 	public static String consulateViewID = "ConsulateView";
 	public static String consulateViewRes = "../layout/ConsulateView.fxml";
+	
+	public static String matchViewID = "MatchView";
+	public static String matchViewRes = "../layout/MatchView.fxml";
 }

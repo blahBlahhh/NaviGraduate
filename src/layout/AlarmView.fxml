@@ -15,6 +15,7 @@
       <Button fx:id="cal" layoutX="14.0" layoutY="74.0" mnemonicParsing="false"  onAction="#gotoCal" prefHeight="30.0" prefWidth="96.0" text="Calculator" />
       <Button fx:id="rank" layoutX="14.0" layoutY="104.0" mnemonicParsing="false" onAction="#gotoRank" prefHeight="30.0" prefWidth="96.0" text="U rank" />
       <Button fx:id="consulate" layoutX="14.0" layoutY="134.0" mnemonicParsing="false" onAction="#gotoConsulate" prefHeight="30.0" prefWidth="96.0" text="Consulate" />
+      <Button fx:id="match" layoutX="14.0" layoutY="164.0" mnemonicParsing="false" onAction="#gotoMatch" prefHeight="30.0" prefWidth="96.0" text="Match" />
       <Line endY="400.0" layoutX="124.0" layoutY="400.0" startY="-400.0" />
       <TextArea editable="false" layoutX="135.0" layoutY="14.0" prefHeight="68.0" prefWidth="251.0" text="DDL Alarm">
          <font>

@@ -18,6 +18,12 @@ public class University
         this.rate = new SimpleStringProperty(University.getRate());
     }  
     
+    @Override
+    public String toString(){
+        return "[" + name + ", SAT Upper Quartile:" + sat+", Admission Rate: "+rate+ "]";
+    }
+
+    
     public String getRank()
     {
     	return rank.get();

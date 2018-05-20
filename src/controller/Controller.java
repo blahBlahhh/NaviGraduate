@@ -25,6 +25,8 @@ public class Controller implements Initializable, ControlledStage
 	private Button rank;
 	@FXML
 	private Button consulate;
+	@FXML
+	private Button match;
 	
 	public Controller(String stage)
 	{
@@ -66,6 +68,11 @@ public class Controller implements Initializable, ControlledStage
 	public void gotoConsulate()
 	{
 		myController.setStage(StageMap.consulateViewID, this.currentStage);
+	}
+	
+	public void gotoMatch()
+	{
+		myController.setStage(StageMap.matchViewID, this.currentStage);
 	}
 
 }

@@ -22,6 +22,7 @@ public class MainView extends Application {
 		stageController.loadStage(StageMap.calViewID, StageMap.calViewRes);
 		stageController.loadStage(StageMap.rankViewID, StageMap.rankViewRes);
 		stageController.loadStage(StageMap.consulateViewID, StageMap.consulateViewRes);
+		stageController.loadStage(StageMap.matchViewID, StageMap.matchViewRes);
 		
 		stageController.setStage(StageMap.mainViewID);
 	}
